@@ -10,8 +10,9 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<h1>Home</h1>} />
+          <Route exact path="/" element={<h1>Home</h1>} />
           <Route path="/search" element={<h1>Search</h1>} />
+          <Route>404 - Not Found</Route>
         </Routes>
       </BrowserRouter>
       App Placeholder
