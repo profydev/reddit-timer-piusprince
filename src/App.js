@@ -12,11 +12,9 @@ function App() {
         <Routes>
           <Route exact path="/" element={<h1>Home</h1>} />
           <Route path="/search" element={<h1>Search</h1>} />
-          <Route>404 - Not Found</Route>
-        </Routes>
+          <Route>404 - Not Found </Route>
+        <Routes>
       </BrowserRouter>
-      App Placeholder
-    </div>
   );
 }
 
