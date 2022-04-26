@@ -15,7 +15,6 @@ function App() {
           <Route>404 - Not Found</Route>
         </Routes>
       </BrowserRouter>
-      App Placeholder
     </div>
   );
 }
