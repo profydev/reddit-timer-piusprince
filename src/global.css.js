@@ -8,7 +8,6 @@ export default createGlobalStyle`
         box-sizing: border-box;
         font-family: 'Bitter', Monteserrat;
     }
-
     html {
         font-size: 62.5%;
     }
