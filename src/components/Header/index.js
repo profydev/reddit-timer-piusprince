@@ -28,6 +28,7 @@ const Header = () => (
       <img src={logo} alt="logo" />
     </Logo>
     <Menu>
+      <MenuLink to="/search/javascript">Search</MenuLink>
       <MenuLink to="#how-it-works">How it works</MenuLink>
       <MenuLink to="#about">About</MenuLink>
     </Menu>
